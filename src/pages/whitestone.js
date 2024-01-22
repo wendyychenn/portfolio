@@ -7,8 +7,8 @@ export default function Whitestone() {
         <>
             <main className={`${styles.main}`}>
 
-                <div>
-                    <a>Projects</a>
+                <div className={`${styles.nav}`}>
+                    <a href='/'>Projects</a>
                     <a>Works</a>
                     <a>About</a>
                 </div>

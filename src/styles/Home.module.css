@@ -28,3 +28,18 @@ gap: 1rem;
   /* border-radius: 1rem; */
   /* height: 45vh; */
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: -5%;
+  justify-content: right;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
