@@ -18,7 +18,7 @@ export default function DrugMinder() {
                     <div>
                         <p>DrugMinder is a free mobile app that allows users to test for overdosing on cocaine, MDMA, and alcohol. It also provides information for users to learn more about the drugs, including recommended dosages, symptoms of overdosing, and precautions.</p>
                         <p>Role: UI/UX Designer / Frontend Coder</p>
-                        <button className={`${styles.button}`}><a href='https://mdia-2109-big-project.vercel.app/'>Check it Out</a></button>
+                        <button className={`${styles.button}`}><a href='https://drugminder.vercel.app/'>Check it Out</a></button>
                     </div>
                 </div>
 
