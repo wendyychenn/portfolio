@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import NavBar from '@/components/NavBar'
 
 export default function Home() {
+
+  
   return (
     <>
       <Head>
@@ -13,23 +16,33 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
 
-        <div className={`${styles.nav}`}>
-          <a href='/'>Projects</a>
-          <a>Works</a>
-          <a>About</a>
-        </div>
+        <NavBar/>
 
-        <h1>Projects</h1>
+        <h1 className={`${styles.title}`}>Projects</h1>
         <div className={`${styles.layout}`}>
           <div>
             <img className={`${styles.image}`} src='/images/whitestone-cover.jpg'/>
           </div>
           <div>
-            <h2>WhiteStone</h2>
+            <h1>WhiteStone</h1>
             <p>WhiteStone is a machine learning dental scanning app for low income and colourblind people to help users evaluate their dental health to reduce the number of dental checkups. It takes pictures of people's mouths and provides data on the teeth scan results.</p>
-            <button><a href='/whitestone'>Learn More</a></button>
+            <button className={`${styles.button}`}><a href='/whitestone'>Learn More</a></button>
+          </div>
+         </div>
+
+         <div className={`${styles.layout}`}>
+          <div>
+            <img className={`${styles.image}`} src='/images/drugminder.png'/>
+          </div>
+          <div>
+            <h1>DrugMinder</h1>
+            <p>DrugMinder is a free mobile app that allows users to test for overdosing on cocaine, MDMA, and alcohol. It also provides information for users to learn more about the drugs, including recommended dosages, symptoms of overdosing, and precautions.</p>
+
+            <button className={`${styles.button}`}><a href='/drugminder'>Learn More</a></button>
           </div>
         </div>
+
+
       </main>
     </>
   )

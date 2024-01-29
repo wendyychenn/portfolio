@@ -1,19 +1,15 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import NavBar from '@/components/NavBar'
 
 export default function Whitestone() {
     return (
         <>
             <main className={`${styles.main}`}>
 
-                <div className={`${styles.nav}`}>
-                    <a href='/'>Projects</a>
-                    <a>Works</a>
-                    <a>About</a>
-                </div>
+                <NavBar />
 
-                <h1>WhiteStone</h1>
+                <h1 className={`${styles.title}`}>WhiteStone</h1>
 
                 <div className={`${styles.layout}`}>
                     <div>
@@ -22,7 +18,7 @@ export default function Whitestone() {
                     <div>
                         <p>WhiteStone is a machine learning dental scanning app for low income and colourblind people to help users evaluate their dental health to reduce the number of dental checkups. It takes pictures of people's mouths and provides data on the teeth scan results.</p>
                         <p>Role: UI/UX Designer</p>
-                        <button><a href='https://www.whitestone-app.com/'>Check it Out</a></button>
+                        <button className={`${styles.button}`}><a href='https://www.whitestone-app.com/'>Check it Out</a></button>
                     </div>
                 </div>
 
