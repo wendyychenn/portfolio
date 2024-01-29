@@ -25,14 +25,14 @@ export default function DrugMinder() {
                 <div>
                     <h3>Prototype</h3>
                     <div className={`${styles.layout2}`}>
-                        <img className={`${styles.image}`} src='/images/drugminder-proto.png' />
+                        <img style={{borderRadius: "1rem", width: "60vw"}} src='/images/drugminder-proto.png' />
                     </div>
                 </div>
 
                 <div className={`${styles.layout}`}>
                     <div>
-                        <h3>Style Guide</h3>
-                        <p>Before coming up with ideas for the layouts of our app, we started off with a style guide to ensure that the overall visuals remain consistent throughout the project.</p>
+                        <h3>Logo Variations</h3>
+                        <p>A few variations of the logo was created and was tested against different colored backgrounds to ensure the brand was adaptable to different situations and stay accessible to users.</p>
                     </div>
                     <div>
                         <img style={{borderRadius: "1rem", height: "35vw"}} src='/images/drugminder-logo.png' />
