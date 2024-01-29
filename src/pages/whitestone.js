@@ -77,8 +77,8 @@ export default function Whitestone() {
                     <h3>Business Card</h3>
                     <p style={{ paddingRight: "20rem"}}>The business card was also designed for print. Each member of the team had their own business card.</p>
                     <div className={`${styles.layout2}`}>
-                        <img style={{ width: "36.5vw", borderRadius: "1rem", marginTop: "1rem"}} src='/images/business-card.PNG' />
-                        <img style={{ width: "36.5vw", borderRadius: "1rem", marginTop: "1rem"}} src='/images/business-card2.PNG' />
+                        <img style={{ width: "36.5vw", borderRadius: "1rem", marginTop: "1rem"}} src='/images/business-card.png' />
+                        <img style={{ width: "36.5vw", borderRadius: "1rem", marginTop: "1rem"}} src='/images/business-card2.png' />
                     </div>
                 </div>
 
