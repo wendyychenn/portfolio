@@ -5,7 +5,7 @@ import NavBar from '@/components/NavBar'
 export default function Whitestone() {
     return (
         <>
-            <main className={`${styles.main2}`}>
+            <main className={`${styles.main}`}>
 
                 <NavBar />
 
