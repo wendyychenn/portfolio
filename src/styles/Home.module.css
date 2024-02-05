@@ -67,6 +67,14 @@ transition-delay: 0.15s;
 .nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -8%;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
   gap: 4rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -74,11 +82,11 @@ transition-delay: 0.15s;
   justify-content: right;
 }
 
-.nav a {
+.navLinks a {
   color: white;
   text-decoration: none;
 }
 
-.nav a:hover {
+.navLinks a:hover {
   color: #A5E5D9;
 }
