@@ -37,6 +37,13 @@ justify-content: center;
 gap: 1rem;
 }
 
+.shortText {
+  padding-right: 20rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 .image {
   width: 40vw;
   border-radius: 1rem;

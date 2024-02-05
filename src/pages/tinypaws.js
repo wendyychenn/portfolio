@@ -33,7 +33,7 @@ export default function Tinypaws() {
                     </div>
                 </div>
 
-                <div className={`${styles.layout3}`} style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left"}}>
+                <div className={`${styles.layout3}, ${styles.shortText}`}>
                     <div>
                         <h2>Logo Design</h2>
                         <p>The idea behind the logo was to show a fun and cute logo, yet still look professional enough for a cat adoption business. The heart represents TinyPaws's mission to provide loving homes for cats all over.</p>
@@ -44,7 +44,7 @@ export default function Tinypaws() {
                     </div>
                 </div>
 
-                <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left"}}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Style Guide</h2>
                         <p>I put together this style guide with the goal of giving the client an idea of the what the final website would look like by incorporating design elements from the website into the style guide.</p>

@@ -27,7 +27,7 @@ export default function Whitestone() {
                 </div>
 
                 <div>
-                    <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                    <div className={`${styles.shortText}`}>
                         <h2>Background</h2>
                         <p>This was the final project for the second term of the Digital Design and Development program. The task was to work with students from the Full Stack Web Development program to create an app that utilises AI that would help a disadvantaged or underrepresented community. </p>
                         <h3>The Goal</h3>
@@ -38,7 +38,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
-                <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Wireframe</h2>
                         <p>The very first wireframe of WhiteStone was highly inconsistent and underwhelming. Receiving feedback and improving from the critique was a highly valuable learning process for the team.</p>
@@ -48,7 +48,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
-                <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Style Guide</h2>
                         <p>Before coming up with ideas for the layouts of our app, a style guide was created to ensure that the overall visuals remain consistent throughout the project.</p>
@@ -69,7 +69,7 @@ export default function Whitestone() {
                 </div>
 
                 <div>
-                    <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                    <div className={`${styles.shortText}`}>
                         <h2>User Personas</h2>
                         <p>As part of the research on the target audience, primary and secondary user personas were created. This was to make sure there was a clear understanding of the people being targeted in order to design an app catered to their needs.</p>
                         <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>

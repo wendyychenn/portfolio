@@ -47,7 +47,7 @@ export default function DrugMinder() {
                     </div>
                 </div>
 
-                <div style={{ paddingRight: "20rem", display: "flex", flexDirection: "column", textAlign: "left" }}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Logo Variations</h2>
                         <p>A few variations of the logo was created and was tested against different colored backgrounds to ensure the brand was adaptable to different situations and stay accessible to users.</p>
