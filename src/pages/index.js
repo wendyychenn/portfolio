@@ -5,7 +5,7 @@ import NavBar from '@/components/NavBar'
 
 export default function Home() {
 
-  
+
   return (
     <>
       <Head>
@@ -16,23 +16,24 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
 
-        <NavBar/>
+        <NavBar />
 
         <h1 className={`${styles.title}`}>Projects</h1>
+
         <div className={`${styles.layout}`}>
           <div>
-            <img className={`${styles.image}`} src='/images/whitestone-cover.jpg'/>
+            <img className={`${styles.image}`} src='/images/whitestone-cover.jpg' />
           </div>
           <div>
             <h1>WhiteStone</h1>
             <p>WhiteStone is a machine learning dental scanning app for low income and colourblind people to help users evaluate their dental health to reduce the number of dental checkups. It takes pictures of people's mouths and provides data on the teeth scan results.</p>
             <button className={`${styles.button}`}><a href='/whitestone'>Learn More</a></button>
           </div>
-         </div>
+        </div>
 
-         <div className={`${styles.layout}`}>
+        <div className={`${styles.layout}`}>
           <div>
-            <img className={`${styles.image}`} src='/images/drugminder.png'/>
+            <img className={`${styles.image}`} src='/images/drugminder.png' />
           </div>
           <div>
             <h1>DrugMinder</h1>
@@ -42,7 +43,16 @@ export default function Home() {
           </div>
         </div>
 
-
+        <div className={`${styles.layout}`}>
+          <div>
+            <img className={`${styles.image}`} src='/images/tinypaws-proto.png' />
+          </div>
+          <div>
+            <h1>TinyPaws</h1>
+            <p>Tinypaws is a cat adoption website that believes every cat deserves a loving home. It was designed to be used on WordPress and fulfill the client's style requirements.</p>
+            <button className={`${styles.button}`}><a href='/tinypaws'>Learn More</a></button>
+          </div>
+        </div>
       </main>
     </>
   )
