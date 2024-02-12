@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className={`${styles.layout}`}>
           <div>
-            <img className={`${styles.image}`} src='/images/tinypaws-proto.png' />
+            <img className={`${styles.image}`} src='/images/tinypaws-proto-screen.png' />
           </div>
           <div>
             <h1>TinyPaws</h1>
