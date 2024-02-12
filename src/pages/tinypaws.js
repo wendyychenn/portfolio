@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 export default function Tinypaws() {
     return (
@@ -55,6 +56,7 @@ export default function Tinypaws() {
                 </div>
 
                 
+                <Footer/>
             </main>
         </>
     )

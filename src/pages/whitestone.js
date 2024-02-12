@@ -1,15 +1,16 @@
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 export default function Whitestone() {
     return (
         <>
-            <main className={`${styles.main}`}>
+            <main className={`${styles.main2}`}>
 
                 <NavBar />
 
-                <h1 className={`${styles.title}`}>WhiteStone</h1>
+                <h1 className={`${styles.title2}`}>WhiteStone</h1>
 
                 <div className={`${styles.layout}`}>
                     <div>
@@ -105,6 +106,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
+<Footer />
 
             </main>
         </>

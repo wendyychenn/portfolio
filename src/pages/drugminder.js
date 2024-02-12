@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 export default function DrugMinder() {
     return (
@@ -57,7 +58,7 @@ export default function DrugMinder() {
                     </div>
                 </div>
 
-
+<Footer/>
             </main>
         </>
     )

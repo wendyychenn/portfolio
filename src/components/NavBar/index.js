@@ -3,11 +3,11 @@ import styles from '@/styles/Home.module.css'
 export default function NavBar() {
   return (
     <div className={`${styles.nav}`}>
-      <div><h1>Wendy</h1></div>
+      <div><img src='/images/logo.png' style={{width: 70}}/></div>
       <div className={`${styles.navLinks}`}>
         <a href='/'>Projects</a>
-        <a>Works</a>
-        <a>About</a>
+        <a>Designs</a>
+        <a href='/about'>About</a>
       </div>
     </div>
 

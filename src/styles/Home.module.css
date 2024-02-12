@@ -15,10 +15,16 @@
 }
 
 .title {
-font-size: 3rem;
-margin-bottom: -5rem;
-margin-top: -8rem;
-}
+  font-size: 3rem;
+  margin-bottom: -5rem;
+  margin-top: -8rem;
+  }
+
+  .title2 {
+    font-size: 3rem;
+    margin-bottom: -2rem;
+    margin-top: -5rem;
+    }
 
 .layout {
 display: flex;
@@ -76,7 +82,9 @@ transition-delay: 0.15s;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: -8%;
+  margin-left: -12%;
+  margin-right: -8%;
+
 }
 
 .navLinks {
@@ -85,7 +93,6 @@ transition-delay: 0.15s;
   gap: 4rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-right: -8%;
   justify-content: right;
 }
 
@@ -96,4 +103,14 @@ transition-delay: 0.15s;
 
 .navLinks a:hover {
   color: #A5E5D9;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.icons {
+  width: 30px;
 }
