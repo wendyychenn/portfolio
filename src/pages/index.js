@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <div>
             <h1>Frezz</h1>
-            <p>Tinypaws is a cat adoption website that believes every cat deserves a loving home. It was designed to be used on WordPress and fulfill the client's style requirements.</p>
+            <p>Frezz is a faux soft drink brand created and designed by myself. It is currently available in the flavours green apple, peach, and grape.</p>
             <button className={`${styles.button}`}><a href='/frezz'>Learn More</a></button>
           </div>
         </div>
