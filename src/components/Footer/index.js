@@ -12,7 +12,7 @@ export default function Footer() {
             </div>
             <div className={`${styles.navLinks}`}>
                 <a href='/'>Projects</a>
-                <a>Designs</a>
+                <a href='/designs'>Designs</a>
                 <a href='/about'>About</a>
             </div>
 

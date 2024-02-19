@@ -6,7 +6,7 @@ export default function NavBar() {
       <div><a href='/'><img src='/images/logo.png' style={{width: 70}}/></a></div>
       <div className={`${styles.navLinks}`}>
         <a href='/'>Projects</a>
-        <a>Designs</a>
+        <a href='/designs'>Designs</a>
         <a href='/about'>About</a>
       </div>
     </div>
