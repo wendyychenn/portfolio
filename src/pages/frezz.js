@@ -49,10 +49,15 @@ export default function Frezz() {
                     </div>
                 </div>
 
-                <div className={`${styles.shortText}`}>
+                <div>
+                    <h2>Design Sketch</h2>
                     <div>
-                        <h2>Graphics</h2>
+                        <img style={{ borderRadius: "1rem", height: "30vw" }} src='/images/soda-sketch.png' />
                     </div>
+                </div>
+
+                <div className={`${styles.shortText}`}>
+                    <h2>Graphics</h2>
                     <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '2rem', margin: '2rem 0rem' }}>
                         <img style={{ borderRadius: "1rem", width: "15vw" }} src='/images/cat-graphic.svg' />
                         <img style={{ borderRadius: "1rem", height: "13vw" }} src='/images/apple-graphic.svg' />
