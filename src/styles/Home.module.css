@@ -63,6 +63,10 @@ padding: 1.2rem 3.2rem;
 border-radius: 8px;
 border: none;
 margin: 0.5rem 0rem;
+color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .button a {
@@ -75,6 +79,7 @@ margin: 0.5rem 0rem;
 .button:hover {
 background-color: #A5E5D9;
 transition-delay: 0.15s;
+scale: 104%;
 }
 
 .nav {

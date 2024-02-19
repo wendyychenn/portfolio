@@ -55,6 +55,17 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={`${styles.layout}`}>
+          <div>
+            <img className={`${styles.image}`} src='/images/soda.png' />
+          </div>
+          <div>
+            <h1>Frezz</h1>
+            <p>Tinypaws is a cat adoption website that believes every cat deserves a loving home. It was designed to be used on WordPress and fulfill the client's style requirements.</p>
+            <button className={`${styles.button}`}><a href='/frezz'>Learn More</a></button>
+          </div>
+        </div>
+
         <Footer />
       </main>
     </>
