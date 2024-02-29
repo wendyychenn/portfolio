@@ -2,10 +2,14 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 export default function Tinypaws() {
     return (
         <>
+            <Head>
+                <title>Wendy Chen's Portfolio</title>
+            </Head>
             <main className={`${styles.main}`}>
 
                 <NavBar />
@@ -30,7 +34,7 @@ export default function Tinypaws() {
                         <button className={`${styles.button}`}><a href='https://www.figma.com/proto/RhxeuuIO366EJiKVQJbZMJ/tinypaws---purradise?node-id=265-5512&starting-point-node-id=265%3A5512&mode=design&t=eFA8iSL0cQOxjmGu-1'>View Prototype</a></button>
                     </div>
                     <div>
-                        <img style={{borderRadius: "1rem", height: "35vw"}} src='/images/tinypaws-proto.png' />
+                        <img style={{ borderRadius: "1rem", height: "35vw" }} src='/images/tinypaws-proto.png' />
                     </div>
                 </div>
 
@@ -39,9 +43,9 @@ export default function Tinypaws() {
                         <h2>Logo Design</h2>
                         <p>The idea behind the logo was to show a fun and cute logo, yet still look professional enough for a cat adoption business. The heart represents TinyPaws's mission to provide loving homes for cats all over.</p>
                     </div>
-                    <div style={{ display: "flex", alignItems: "center", gap: "2rem"}}>
-                        <img style={{borderRadius: "1rem", height: "25vw"}} src='/images/tinypaws-draft.png' />
-                        <img style={{borderRadius: "1rem", height: "25vw"}} src='/images/tinypaws.png' />
+                    <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
+                        <img style={{ borderRadius: "1rem", height: "25vw" }} src='/images/tinypaws-draft.png' />
+                        <img style={{ borderRadius: "1rem", height: "25vw" }} src='/images/tinypaws.png' />
                     </div>
                 </div>
 
@@ -51,12 +55,12 @@ export default function Tinypaws() {
                         <p>I put together this style guide with the goal of giving the client an idea of the what the final website would look like by incorporating design elements from the website into the style guide.</p>
                     </div>
                     <div>
-                        <img style={{borderRadius: "1rem", width: "50vw"}} src='/images/tinypaws-style.png' />
+                        <img style={{ borderRadius: "1rem", width: "50vw" }} src='/images/tinypaws-style.png' />
                     </div>
                 </div>
 
-                
-                <Footer/>
+
+                <Footer />
             </main>
         </>
     )

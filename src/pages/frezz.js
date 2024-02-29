@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import { useState } from 'react'
+import Head from 'next/head'
 
 export default function Frezz() {
 
@@ -19,6 +20,9 @@ export default function Frezz() {
 
     return (
         <>
+            <Head>
+                <title>Wendy Chen's Portfolio</title>
+            </Head>
             <main className={`${styles.main}`}>
 
                 <NavBar />

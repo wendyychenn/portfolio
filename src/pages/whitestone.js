@@ -2,10 +2,14 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
+import Head from 'next/head'
 
 export default function Whitestone() {
     return (
         <>
+            <Head>
+                <title>Wendy Chen's Portfolio</title>
+            </Head>
             <main className={`${styles.main2}`}>
 
                 <NavBar />
@@ -106,7 +110,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
-<Footer />
+                <Footer />
 
             </main>
         </>
