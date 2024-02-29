@@ -14,7 +14,7 @@ export default function About() {
                 <h1 className={`${styles.title}`}>About Me</h1>
 
                 <div className={`${styles.layout}`}>
-                    <img src='/images/nana.jpg' style={{ width: '26vw', borderRadius: '50rem' }} />
+                    <img src='/images/profile.png' style={{ width: '26vw', borderRadius: '50rem' }} />
                     <div>
                         <h2>Hi there! I'm Wendy</h2>
                         <p>I'm currently a student at BCIT (Britsh Columbia Institute of Technology) taking the Digital Design and Development program. I'm a designer with a passion for website design, product design, and character design. I also possess some coding skills in HTML, CSS and Javascript.</p>
