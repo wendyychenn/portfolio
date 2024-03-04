@@ -63,7 +63,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
-                <div className={`${styles.layout}`}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Components</h2>
                         <p>Our team split different parts of the app design into components. Doing this allowed for us to create different variations of these components with different colors. If the client wished to see certain features in a different color, everything would be ready for them.</p>
@@ -84,7 +84,7 @@ export default function Whitestone() {
                     </div>
                 </div>
 
-                <div className={`${styles.layout}`}>
+                <div className={`${styles.shortText}`}>
                     <div>
                         <h3>Presentation Day</h3>
                         <p>On presentation day a table was set up containing brochures, business cards, 3D-printed keychains, and a demo of our app. The WhiteStone team presented the app to an audience including teachers, students, alumni, industry professionals, the mayor of Burnaby, as well as other invited guests.</p>
