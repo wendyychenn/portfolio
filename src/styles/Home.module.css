@@ -119,3 +119,14 @@ scale: 104%;
 .icons {
   width: 30px;
 }
+
+.designs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items:flex-start;
+}
+
+.designTitle {
+  margin-bottom: -1rem;
+}

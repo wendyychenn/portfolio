@@ -52,7 +52,7 @@ export default function Tinypaws() {
                 <div className={`${styles.shortText}`}>
                     <div>
                         <h2>Style Guide</h2>
-                        <p>I put together this style guide with the goal of giving the client an idea of the what the final website would look like by incorporating design elements from the website into the style guide.</p>
+                        <p>The style guide was put together with the goal of giving the client an idea of the what the final website would look like by incorporating design elements from the website into the style guide.</p>
                     </div>
                     <div>
                         <img style={{ borderRadius: "1rem", width: "50vw" }} src='/images/tinypaws-style.png' />

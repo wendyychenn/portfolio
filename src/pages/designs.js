@@ -16,18 +16,36 @@ export default function Designs() {
 
                 <h1 className={`${styles.title}`}>Designs and Illustrations</h1>
 
-                <div className={`${styles.layout3}`} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '3rem' }}>
-                    <a href='https://youtu.be/-1oNlJvEtDo' target="_blank"><img src='/designs/chocolate.png' style={{ width: '56vw', borderRadius: '1rem' }} /></a>
-                    <img src='/designs/cat-party.png' style={{ width: '56vw', borderRadius: '1rem' }} />
-                    <video src='/designs/car-animation.mp4' autoPlay loop muted style={{ width: '56vw', borderRadius: '1rem' }} />
-                    <img src='/designs/amplifier.png' style={{ width: '56vw', borderRadius: '1rem' }} />
-                    <img src='/designs/berryade.png' style={{ width: '56vw', borderRadius: '1rem' }} />
-                    <img src='/designs/poster.png' style={{ width: '56vw', borderRadius: '1rem' }} />
-                    <div style={{ display: 'flex', flexDirection: 'row', gap: '2vw' }}>
-                        <img src='designs/menu.png' style={{ width: '27vw', borderRadius: '1rem' }} />
-                        <img src='designs/menu2.png' style={{ width: '27vw', borderRadius: '1rem' }} />
+                <div className={`${styles.layout3}`} style={{ display: 'flex', flexDirection: 'column', gap: '5rem' }}>
+
+                    <div className={`${styles.designs}`}>
+                        <h2 className={`${styles.designTitle}`}>Motion Graphics</h2>
+                        <a href='https://youtu.be/-1oNlJvEtDo' target="_blank"><img src='/designs/chocolate.png' style={{ width: '56vw', borderRadius: '1rem' }} /></a>
+                        <video src='/designs/car-animation.mp4' autoPlay loop muted style={{ width: '56vw', borderRadius: '1rem' }} />
                     </div>
-                </div >
+
+                    <div className={`${styles.designs}`}>
+                        <h2 className={`${styles.designTitle}`}>Vector Drawings</h2>
+                        <img src='/designs/cat-party.png' style={{ width: '56vw', borderRadius: '1rem' }} />
+                        <img src='/designs/amplifier.png' style={{ width: '56vw', borderRadius: '1rem' }} />
+                    </div>
+
+                    <div className={`${styles.designs}`}>
+                        <h2 className={`${styles.designTitle}`}>Photoshop Exercises</h2>
+                        <div style={{ display: 'flex', flexDirection: 'row', gap: '2vw' }}>
+                            <img src='/designs/berryade.png' style={{ width: '27vw', borderRadius: '1rem' }} />
+                            <img src='/designs/poster.png' style={{ width: '27vw', borderRadius: '1rem' }} />
+                        </div>
+                    </div>
+
+                    <div className={`${styles.designs}`}>
+                        <h2 className={`${styles.designTitle}`}>Menu Layout Exercise</h2>
+                        <div style={{ display: 'flex', flexDirection: 'row', gap: '2vw' }}>
+                            <img src='designs/menu.png' style={{ width: '27vw', borderRadius: '1rem' }} />
+                            <img src='designs/menu2.png' style={{ width: '27vw', borderRadius: '1rem' }} />
+                        </div>
+                    </div >
+                </div>
 
                 <Footer />
 
