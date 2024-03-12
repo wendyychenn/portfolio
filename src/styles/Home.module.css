@@ -18,29 +18,29 @@
   font-size: 3rem;
   margin-bottom: -5rem;
   margin-top: -8rem;
-  }
+}
 
-  .title2 {
-    font-size: 3rem;
-    margin-bottom: -2rem;
-    margin-top: -5rem;
-    }
+.title2 {
+  font-size: 3rem;
+  margin-bottom: -2rem;
+  margin-top: -5rem;
+}
 
 .layout {
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
 
 }
 
 .layout2 {
   display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .shortText {
@@ -57,13 +57,13 @@ gap: 1rem;
 }
 
 .button {
-background-color: #007481;
-font-family: 'Raleway', sans-serif;
-padding: 1.2rem 3.2rem;
-border-radius: 8px;
-border: none;
-margin: 0.5rem 0rem;
-color: white;
+  background-color: #007481;
+  font-family: 'Raleway', sans-serif;
+  padding: 1.2rem 3.2rem;
+  border-radius: 8px;
+  border: none;
+  margin: 0.5rem 0rem;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
@@ -77,9 +77,9 @@ color: white;
 }
 
 .button:hover {
-background-color: #A5E5D9;
-transition-delay: 0.15s;
-scale: 104%;
+  background-color: #A5E5D9;
+  transition-delay: 0.15s;
+  scale: 104%;
 }
 
 .nav {
@@ -89,6 +89,7 @@ scale: 104%;
   justify-content: space-between;
   margin-left: -12%;
   margin-right: -8%;
+  margin-bottom: 5%;
 
 }
 
@@ -124,9 +125,29 @@ scale: 104%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  align-items:flex-start;
+  align-items: flex-start;
 }
 
 .designTitle {
   margin-bottom: -1rem;
+}
+
+@media (max-width: 768px) {
+
+  .layout {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .image {
+    width: 75vw;
+  }
+
+  .main {
+    gap: 6rem;
+  }
+
+  .nav {
+    margin-bottom: 10%;
+  }
 }
