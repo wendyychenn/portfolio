@@ -31,7 +31,6 @@ export default function Tinypaws() {
                     <div>
                         <h2>Prototype</h2>
                         <p>Everyone in the team worked together to plan out and design the prototype layout.</p>
-                        <button className={`${styles.button}`}><a href='https://www.figma.com/proto/RhxeuuIO366EJiKVQJbZMJ/tinypaws---purradise?node-id=265-5512&starting-point-node-id=265%3A5512&mode=design&t=eFA8iSL0cQOxjmGu-1'>View Prototype</a></button>
                     </div>
                     <div>
                         <img style={{ borderRadius: "1rem", height: "35vw" }} src='/images/tinypaws-proto.png' />

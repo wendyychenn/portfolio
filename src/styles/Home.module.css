@@ -132,7 +132,7 @@
   margin-bottom: -1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 412px){
 
   .layout {
     flex-direction: column;
@@ -144,10 +144,27 @@
   }
 
   .main {
-    gap: 6rem;
+    gap: 4rem;
   }
 
   .nav {
     margin-bottom: 10%;
+  }
+
+  .shortText {
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 411px) {
+
+  .main {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .nav {
+    margin-left: -14%;
+    margin-right: -10%;
   }
 }
